@@ -60,7 +60,7 @@ $ deactivate
 ```
 ## To set the Environment Variable for our own salesforce credentials,
 * ### Open the terminal
-* ### To get Salesforce Client_id and CLient secret, [Follow](https://docs.microfocus.com/UCMDB/11.0/cp-docs/docs/eng/doc_lib/Content/Remedyforce_CreateConnectedApps.htm)
+* ### To get Salesforce Client_id and Client_Secret, [Follow](https://docs.microfocus.com/UCMDB/11.0/cp-docs/docs/eng/doc_lib/Content/Remedyforce_CreateConnectedApps.htm)
 ### To set salesforce Client_Id
 ```
 set salesforce_api_client_id=<your_client_id>
