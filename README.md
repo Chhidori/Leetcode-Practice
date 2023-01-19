@@ -58,6 +58,28 @@ $ deactivate
 ```
 > pip install -r requirements.txt
 ```
+## To set the Environment Variable for our own salesforce credentials,
+* ### Open the terminal
+### To set salesforce Client_Id
+```
+set salesforce_api_client_id=<your_client_id>
+```
+### To  set salesforce Client Secret
+```
+set salesforce_api_client_id=<your_client_secret>
+```
+### To set salesforce Username
+```
+set salesforce_api_username=<your_username>
+```
+### To set salesforce Password
+```
+set salesforce_api_password=<your_password>
+```
+### To set Salesforce auth_url
+```
+set salesforce_auth_url=<salesforce_auth_url>
+```
 ## To run the app,
 ``` 
 > flask run 
@@ -77,12 +99,14 @@ http://127.0.0.1:5000/call-disposition
 ```
 
 ### To run the Flask in debug mode
-* ### create a file named ``` .flaskenv ``` and include the lines below,
+### create a file named ``` .flaskenv ``` and include the lines below,
 ```
 FLASK_APP=app
 FLASK_ENV=development
 FLASK_DEBUG=True
 ```
+
+
 
 
 
